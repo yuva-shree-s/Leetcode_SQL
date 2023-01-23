@@ -66,7 +66,7 @@ from users as u
 left join rides as r
 on u.id=r.user_id
 group by u.name
-order by total_distance desc,u.name;
+order by total_distance desc,u.name; 
 
 
 

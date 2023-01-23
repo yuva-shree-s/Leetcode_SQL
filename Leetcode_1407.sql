@@ -1,5 +1,5 @@
 
---DUMPING:
+#DUMPING:
 
 CREATE TABLE Users (
   `id` INTEGER,
@@ -53,7 +53,7 @@ VALUES
   ('Donald', '0');
 
 
---Answer:
+#Answer:
 
 select * from users;
 
